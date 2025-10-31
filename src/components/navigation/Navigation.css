@@ -1,0 +1,40 @@
+.topbar { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 8px 12px; 
+  background: var(--white); 
+  color: var(--brand); 
+}
+.topbarLeft { 
+  font-weight: 700; 
+}
+.divider { 
+  height: 3px; 
+  background: var(--brand); 
+  opacity: 0.25; 
+}
+.navbar { 
+  position: sticky; 
+  top: 0; 
+  z-index: 10; 
+  width: 100%; display: flex; 
+  align-items: center; 
+  gap: 8px; 
+  padding: 10px 12px; 
+  background: var(--bg); 
+}
+.nav-link { 
+  text-decoration: none; 
+  color: var(--brand); 
+  padding: 8px 10px; 
+  border-radius: 6px; 
+  font-weight: 600; 
+}
+.nav-link:hover { 
+  background: var(--bg-2); 
+}
+.nav-link.is-active { 
+  background: var(--brand); 
+  color: #fff; 
+}

@@ -1,0 +1,35 @@
+.footer {
+  background: var(--bg-2);
+  color: var(--brand);
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.footer-brand {
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0.5rem 0 0.75rem 0;
+}
+
+.footer-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  display: block;
+  color: var(--muted, #5f6b6b);
+}
